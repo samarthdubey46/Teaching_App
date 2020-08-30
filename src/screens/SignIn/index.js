@@ -15,7 +15,7 @@ const App = (props) => {
                 <View style={[Style.container, { marginLeft: 10 }]}>
                     <Text style={[Style.textBold24]}>Welcome to </Text>
                     <Text style={[Style.textBold24, { color: 'black', marginTop: 1 }]}>Dps Jagdalpur</Text>
-                    <Text style={{ color: Colors.gray, marginTop: 10, marginBottom: 30, ontFamily: 'Quicksand-Medium', fontSize: 16 }}>SignIn to continue </Text>
+                    <Text style={{ color: Colors.gray, marginTop: 10, marginBottom: 30, fontFamily: 'Quicksand-Medium', fontSize: 16 }}>SignIn to continue </Text>
 
                     <TextInput placeholder="Email" value={email} change={changeEmail} />
                     <TextInput placeholder="Password" value={password} change={changePassword} />

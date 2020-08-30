@@ -17,7 +17,8 @@ const App = (props) => {
                 <TextInput autoCapitalize="none" holder="First_Name" />
                 <TextInput autoCapitalize="none" holder="Last_Name" />
                 <TextInput autoCapitalize="none" holder="Email" />
-                <TextInput autoCapitalize="none" keyboardType="phone-pad" secureTextEntry holder="Age" />
+                <TextInput autoCapitalize="none" keyboardType="phone-pad" holder="Age" />
+                <TextInput autoCapitalize="none" keyboardType="phone-pad" holder="Class" />
                 <TextInput autoCapitalize="none" keyboardType="phone-pad" holder="Mobile No." />
                 <TextInput autoCapitalize="none" secureTextEntry secureEntry={true} holder="Password" />
                 <TextInput autoCapitalize="none" secureTextEntry holder="Confirm_Password" />
